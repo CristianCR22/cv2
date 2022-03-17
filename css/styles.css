@@ -1,0 +1,147 @@
+/**************************TAG SELECTOR**************************/
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 0px auto 0;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin: 50px 0;
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+hr {
+  border: dotted;
+  border-width: 0 0 10px;
+  color: #EAF6F6;
+  margin: 80px auto;
+  width: 8%;
+}
+
+/**************************CLASS SELECTOR**************************/
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #66BFBF;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.img-skill1 {
+  width: 25%;
+  height: auto;
+  float: left;
+  margin-right: 80px;
+}
+
+.img-skill2 {
+  width: 25%;
+  height: auto;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  margin-top: 60px;
+}
+
+.profile-text {
+  width: 30%;
+  margin: auto;
+}
+
+.profile-image {
+  width: 15%;
+  height: auto;
+}
+
+.profile-tittle {
+  margin: 40px 0;
+}
+
+.contact-me-text {
+  width: 50%;
+  margin: 0 auto 50px;
+}
+
+.btn {
+  border-radius: 8px;
+  background-image: linear-gradient(#11cdd4, #11999e);
+  color: white;
+  padding: 5px 10px 5px;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-image: linear-gradient(#30e3cb, #2bc4ad);
+}
+
+.copyright {
+  color: white;
+  margin-top: 40px;
+}
